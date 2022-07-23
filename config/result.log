@@ -1,0 +1,751 @@
+[2022-07-18 19:13:31,313] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8, 'device': device(type='cpu')}
+[2022-07-18 19:13:31,401] train.py:58 INFO: Using cpu device.
+[2022-07-18 19:13:31,401] train.py:59 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:13:31,401] train.py:60 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:15:02,951] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:15:02,986] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:15:02,986] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:15:02,995] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:16:16,789] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:16:16,822] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:16:16,822] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:16:16,822] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:17:13,948] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:17:13,984] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:17:13,984] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:17:13,984] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:21:40,889] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:21:40,925] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:21:40,925] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:21:40,925] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:22:18,981] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:22:19,016] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:22:19,016] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:22:19,016] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:37:50,367] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 30, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:37:50,407] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:37:50,407] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:37:50,407] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:38:44,906] train.py:49 INFO: epoch [1/30] train_loss: 1.354  val_accuracy: 182.000
+[2022-07-18 19:39:38,882] train.py:49 INFO: epoch [2/30] train_loss: 1.155  val_accuracy: 196.000
+[2022-07-18 19:39:57,843] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:39:57,878] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:39:57,878] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:39:57,878] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:40:51,698] train.py:49 INFO: epoch [1/10] train_loss: 1.334  val_accuracy: 197.000
+[2022-07-18 19:41:45,236] train.py:49 INFO: epoch [2/10] train_loss: 1.183  val_accuracy: 179.000
+[2022-07-18 19:42:40,086] train.py:49 INFO: epoch [3/10] train_loss: 1.094  val_accuracy: 226.000
+[2022-07-18 19:43:34,918] train.py:49 INFO: epoch [4/10] train_loss: 0.991  val_accuracy: 237.000
+[2022-07-18 19:44:30,137] train.py:49 INFO: epoch [5/10] train_loss: 0.939  val_accuracy: 238.000
+[2022-07-18 19:45:25,328] train.py:49 INFO: epoch [6/10] train_loss: 0.936  val_accuracy: 246.000
+[2022-07-18 19:45:37,784] train.py:56 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:45:37,819] train.py:61 INFO: Using cpu device.
+[2022-07-18 19:45:37,819] train.py:62 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:45:37,819] train.py:63 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:46:31,435] train.py:51 INFO: epoch [1/10] train_loss: 1.367  val_accuracy: 7.417
+[2022-07-18 19:47:25,553] train.py:51 INFO: epoch [2/10] train_loss: 1.149  val_accuracy: 8.708
+[2022-07-18 19:48:38,812] train.py:56 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:48:38,846] train.py:61 INFO: Using cpu device.
+[2022-07-18 19:48:38,846] train.py:62 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:48:38,846] train.py:63 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:48:50,122] train.py:56 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:48:50,158] train.py:61 INFO: Using cpu device.
+[2022-07-18 19:48:50,158] train.py:62 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:48:50,158] train.py:63 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:49:43,635] train.py:51 INFO: epoch [1/10] train_loss: 1.415  val_accuracy: 7.250
+[2022-07-18 19:50:37,644] train.py:51 INFO: epoch [2/10] train_loss: 1.208  val_accuracy: 8.208
+[2022-07-18 19:51:31,864] train.py:51 INFO: epoch [3/10] train_loss: 1.102  val_accuracy: 9.500
+[2022-07-18 19:52:27,459] train.py:51 INFO: epoch [4/10] train_loss: 1.045  val_accuracy: 9.250
+[2022-07-18 19:53:15,061] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 19:53:15,096] train.py:59 INFO: Using cpu device.
+[2022-07-18 19:53:15,096] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 19:53:15,096] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 19:54:09,270] train.py:49 INFO: epoch [1/10] train_loss: 1.355  val_accuracy: 0.393
+[2022-07-18 19:55:03,159] train.py:49 INFO: epoch [2/10] train_loss: 1.181  val_accuracy: 0.511
+[2022-07-18 19:55:57,321] train.py:49 INFO: epoch [3/10] train_loss: 1.069  val_accuracy: 0.574
+[2022-07-18 19:56:51,968] train.py:49 INFO: epoch [4/10] train_loss: 1.029  val_accuracy: 0.632
+[2022-07-18 19:57:46,434] train.py:49 INFO: epoch [5/10] train_loss: 0.980  val_accuracy: 0.607
+[2022-07-18 19:58:42,153] train.py:49 INFO: epoch [6/10] train_loss: 0.933  val_accuracy: 0.621
+[2022-07-18 19:59:37,914] train.py:49 INFO: epoch [7/10] train_loss: 0.882  val_accuracy: 0.552
+[2022-07-18 20:00:33,454] train.py:49 INFO: epoch [8/10] train_loss: 0.897  val_accuracy: 0.681
+[2022-07-18 20:01:28,741] train.py:49 INFO: epoch [9/10] train_loss: 0.844  val_accuracy: 0.632
+[2022-07-18 20:02:23,758] train.py:49 INFO: epoch [10/10] train_loss: 0.810  val_accuracy: 0.706
+[2022-07-18 20:14:33,139] train.py:54 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:14:33,173] train.py:59 INFO: Using cpu device.
+[2022-07-18 20:14:33,173] train.py:60 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:14:33,173] train.py:61 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:15:28,297] train.py:49 INFO: epoch [1/10] train_loss: 1.356  val_accuracy: 0.495
+[2022-07-18 20:16:23,818] train.py:49 INFO: epoch [2/10] train_loss: 1.171  val_accuracy: 0.555
+[2022-07-18 20:17:19,369] train.py:57 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:17:19,406] train.py:62 INFO: Using cpu device.
+[2022-07-18 20:17:19,406] train.py:63 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:17:19,406] train.py:64 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:18:13,765] train.py:52 INFO: epoch [1/10] train_loss: 1.404  val_accuracy: 0.448
+[2022-07-18 20:19:07,369] train.py:52 INFO: epoch [2/10] train_loss: 1.182  val_accuracy: 0.536
+[2022-07-18 20:19:53,717] train.py:57 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:19:53,751] train.py:62 INFO: Using cpu device.
+[2022-07-18 20:19:53,751] train.py:63 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:19:53,751] train.py:64 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:20:49,063] train.py:52 INFO: epoch [1/10] train_loss: 1.361  val_accuracy: 0.467
+[2022-07-18 20:21:43,647] train.py:52 INFO: epoch [2/10] train_loss: 1.187  val_accuracy: 0.552
+[2022-07-18 20:22:22,117] train.py:59 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:22:22,152] train.py:64 INFO: Using cpu device.
+[2022-07-18 20:22:22,152] train.py:65 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:22:22,152] train.py:66 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:23:16,165] train.py:54 INFO: epoch [1/10] train_loss: 1.382  val_accuracy: 0.434
+[2022-07-18 20:24:11,038] train.py:54 INFO: epoch [2/10] train_loss: 1.186  val_accuracy: 0.442
+[2022-07-18 20:25:06,543] train.py:54 INFO: epoch [3/10] train_loss: 1.102  val_accuracy: 0.538
+[2022-07-18 20:27:46,892] train.py:60 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:27:46,927] train.py:65 INFO: Using cpu device.
+[2022-07-18 20:27:46,927] train.py:66 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:27:46,927] train.py:67 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:28:41,357] train.py:55 INFO: epoch [1/10] train_loss: 1.360  val_accuracy: 0.456
+[2022-07-18 20:29:35,247] train.py:55 INFO: epoch [2/10] train_loss: 1.179  val_accuracy: 0.536
+[2022-07-18 20:30:12,858] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:30:12,894] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:30:12,894] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:30:12,894] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:31:06,943] train.py:57 INFO: epoch [1/10] train_loss: 1.356  val_accuracy: 0.453
+[2022-07-18 20:32:01,096] train.py:57 INFO: epoch [2/10] train_loss: 1.181  val_accuracy: 0.440
+[2022-07-18 20:32:56,888] train.py:57 INFO: epoch [3/10] train_loss: 1.095  val_accuracy: 0.555
+[2022-07-18 20:33:51,885] train.py:57 INFO: epoch [4/10] train_loss: 1.045  val_accuracy: 0.662
+[2022-07-18 20:34:45,887] train.py:57 INFO: epoch [5/10] train_loss: 0.979  val_accuracy: 0.618
+[2022-07-18 20:35:40,619] train.py:57 INFO: epoch [6/10] train_loss: 0.932  val_accuracy: 0.599
+[2022-07-18 20:36:36,454] train.py:57 INFO: epoch [7/10] train_loss: 0.887  val_accuracy: 0.695
+[2022-07-18 20:37:31,883] train.py:57 INFO: epoch [8/10] train_loss: 0.860  val_accuracy: 0.690
+[2022-07-18 20:38:28,142] train.py:57 INFO: epoch [9/10] train_loss: 0.823  val_accuracy: 0.712
+[2022-07-18 20:39:23,345] train.py:57 INFO: epoch [10/10] train_loss: 0.812  val_accuracy: 0.731
+[2022-07-18 20:42:36,798] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:42:36,834] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:42:36,834] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:42:36,834] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:43:46,831] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:43:46,865] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:43:46,865] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:43:46,865] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:44:40,980] train.py:80 INFO: epoch [1/10] train_loss: 1.407  val_accuracy: 0.478
+[2022-07-18 20:45:34,794] train.py:80 INFO: epoch [2/10] train_loss: 1.186  val_accuracy: 0.511
+[2022-07-18 20:46:28,973] train.py:80 INFO: epoch [3/10] train_loss: 1.083  val_accuracy: 0.571
+[2022-07-18 20:46:58,422] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:46:58,457] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:46:58,457] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:46:58,457] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:47:52,600] train.py:80 INFO: epoch [1/10] train_loss: 1.371  val_accuracy: 44.505
+[2022-07-18 20:48:46,315] train.py:80 INFO: epoch [2/10] train_loss: 1.158  val_accuracy: 56.044
+[2022-07-18 20:49:40,005] train.py:80 INFO: epoch [3/10] train_loss: 1.097  val_accuracy: 63.462
+[2022-07-18 20:50:33,818] train.py:80 INFO: epoch [4/10] train_loss: 1.040  val_accuracy: 60.714
+[2022-07-18 20:51:37,710] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:51:37,745] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:51:37,745] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:51:37,746] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:51:50,727] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:51:50,762] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:51:50,762] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:51:50,762] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:53:09,610] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:53:09,644] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:53:09,644] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:53:09,644] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:54:03,924] train.py:80 INFO: epoch [%d/%d] train_loss: 1.000  val_accuracy: 10.00%
+[2022-07-18 20:54:58,335] train.py:80 INFO: epoch [%d/%d] train_loss: 2.000  val_accuracy: 10.00%
+[2022-07-18 20:55:11,709] train.py:62 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-18 20:55:11,743] train.py:67 INFO: Using cpu device.
+[2022-07-18 20:55:11,743] train.py:68 INFO: Using 8 dataloader workers every process
+[2022-07-18 20:55:11,743] train.py:69 INFO: Using 3306 images for training, 364 images for validation.
+[2022-07-18 20:56:05,874] train.py:80 INFO: epoch [1/10] train_loss: 1.352  val_accuracy: 53.30%
+[2022-07-18 20:56:59,797] train.py:80 INFO: epoch [2/10] train_loss: 1.183  val_accuracy: 56.87%
+[2022-07-18 20:57:53,387] train.py:80 INFO: epoch [3/10] train_loss: 1.125  val_accuracy: 54.40%
+[2022-07-18 20:58:47,149] train.py:80 INFO: epoch [4/10] train_loss: 1.037  val_accuracy: 65.11%
+[2022-07-18 20:59:40,982] train.py:80 INFO: epoch [5/10] train_loss: 0.969  val_accuracy: 53.57%
+[2022-07-18 21:00:34,701] train.py:80 INFO: epoch [6/10] train_loss: 0.937  val_accuracy: 66.76%
+[2022-07-18 21:01:28,740] train.py:80 INFO: epoch [7/10] train_loss: 0.901  val_accuracy: 68.68%
+[2022-07-18 21:02:22,899] train.py:80 INFO: epoch [8/10] train_loss: 0.862  val_accuracy: 69.23%
+[2022-07-18 21:03:17,009] train.py:80 INFO: epoch [9/10] train_loss: 0.856  val_accuracy: 66.76%
+[2022-07-18 21:04:11,330] train.py:80 INFO: epoch [10/10] train_loss: 0.807  val_accuracy: 71.15%
+[2022-07-19 13:41:11,240] train.py:22 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 13:41:40,973] train.py:22 INFO: {'data_root': './data/flower_data', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 13:41:41,000] train.py:60 INFO: Using cpu device.
+[2022-07-19 13:41:41,000] train.py:61 INFO: Using 8 dataloader workers every process
+[2022-07-19 13:41:41,000] train.py:62 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 13:42:40,433] train.py:73 INFO: epoch [1/10] train_loss: 1.370  val_accuracy: 42.00%
+[2022-07-19 13:43:39,716] train.py:73 INFO: epoch [2/10] train_loss: 1.189  val_accuracy: 51.98%
+[2022-07-19 13:44:38,791] train.py:73 INFO: epoch [3/10] train_loss: 1.121  val_accuracy: 63.06%
+[2022-07-19 13:45:38,371] train.py:73 INFO: epoch [4/10] train_loss: 1.045  val_accuracy: 66.62%
+[2022-07-19 13:46:38,253] train.py:73 INFO: epoch [5/10] train_loss: 0.972  val_accuracy: 68.40%
+[2022-07-19 13:47:37,469] train.py:73 INFO: epoch [6/10] train_loss: 0.967  val_accuracy: 67.03%
+[2022-07-19 13:48:36,410] train.py:73 INFO: epoch [7/10] train_loss: 0.899  val_accuracy: 69.08%
+[2022-07-19 13:49:35,619] train.py:73 INFO: epoch [8/10] train_loss: 0.878  val_accuracy: 64.43%
+[2022-07-19 13:50:34,699] train.py:73 INFO: epoch [9/10] train_loss: 0.901  val_accuracy: 70.45%
+[2022-07-19 13:51:33,695] train.py:73 INFO: epoch [10/10] train_loss: 0.834  val_accuracy: 71.82%
+[2022-07-19 14:04:06,028] train.py:22 INFO: {'data_root': './data/flower_data', 'weights': './AlexNet.pth', 'save_path': './AlexNet.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:04:06,054] train.py:60 INFO: Using cpu device.
+[2022-07-19 14:04:06,054] train.py:61 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:04:06,054] train.py:62 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:05:05,959] train.py:81 INFO: epoch [1/10] train_loss: 1.044  val_accuracy: 67.58%
+[2022-07-19 14:06:06,405] train.py:81 INFO: epoch [2/10] train_loss: 0.962  val_accuracy: 67.85%
+[2022-07-19 14:07:05,888] train.py:81 INFO: epoch [3/10] train_loss: 0.948  val_accuracy: 68.67%
+[2022-07-19 14:08:05,165] train.py:81 INFO: epoch [4/10] train_loss: 0.906  val_accuracy: 72.50%
+[2022-07-19 14:09:04,144] train.py:81 INFO: epoch [5/10] train_loss: 0.883  val_accuracy: 71.00%
+[2022-07-19 14:10:03,103] train.py:81 INFO: epoch [6/10] train_loss: 0.846  val_accuracy: 65.80%
+[2022-07-19 14:11:02,151] train.py:81 INFO: epoch [7/10] train_loss: 0.803  val_accuracy: 71.55%
+[2022-07-19 14:12:01,611] train.py:81 INFO: epoch [8/10] train_loss: 0.817  val_accuracy: 72.64%
+[2022-07-19 14:13:00,680] train.py:81 INFO: epoch [9/10] train_loss: 0.788  val_accuracy: 71.68%
+[2022-07-19 14:14:00,348] train.py:81 INFO: epoch [10/10] train_loss: 0.769  val_accuracy: 68.95%
+[2022-07-19 14:14:21,509] train.py:22 INFO: {'data_root': './data/flower_data', 'weights': '', 'save_path': './vgg16.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 8, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:14:21,536] train.py:60 INFO: Using cpu device.
+[2022-07-19 14:14:21,536] train.py:61 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:14:21,536] train.py:62 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:15:20,128] train.py:22 INFO: {'data_root': './data/flower_data', 'weights': '', 'save_path': './vgg16.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:15:20,154] train.py:60 INFO: Using cpu device.
+[2022-07-19 14:15:20,155] train.py:61 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:15:20,155] train.py:62 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:23:46,967] train.py:23 INFO: {'config': 'config.yaml', 'data_root': './data/flower_data', 'weights': '', 'save_path': './vgg16.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:24:17,232] train.py:23 INFO: {'config': 'config.yaml', 'data_root': './data/flower_data', 'weights': '', 'save_path': './vgg16.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:24:17,258] train.py:66 INFO: Using cpu device.
+[2022-07-19 14:24:17,258] train.py:67 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:24:17,258] train.py:68 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:24:53,360] train.py:23 INFO: {'config': 'config.yaml', 'data_root': './data/flower_data', 'weights': '', 'save_path': './vgg16.pth', 'num_classes': 5, 'epochs': 10, 'batch_size': 32, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:24:53,387] train.py:66 INFO: Using cpu device.
+[2022-07-19 14:24:53,387] train.py:67 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:24:53,387] train.py:68 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:25:52,813] train.py:87 INFO: epoch [1/10] train_loss: 1.390  val_accuracy: 44.87%
+[2022-07-19 14:26:52,641] train.py:87 INFO: epoch [2/10] train_loss: 1.225  val_accuracy: 50.21%
+[2022-07-19 14:27:51,887] train.py:87 INFO: epoch [3/10] train_loss: 1.118  val_accuracy: 61.70%
+[2022-07-19 14:28:52,598] train.py:87 INFO: epoch [4/10] train_loss: 1.061  val_accuracy: 65.39%
+[2022-07-19 14:29:53,221] train.py:87 INFO: epoch [5/10] train_loss: 0.996  val_accuracy: 64.43%
+[2022-07-19 14:30:53,370] train.py:87 INFO: epoch [6/10] train_loss: 0.955  val_accuracy: 68.54%
+[2022-07-19 14:31:53,981] train.py:87 INFO: epoch [7/10] train_loss: 0.949  val_accuracy: 70.59%
+[2022-07-19 14:32:54,022] train.py:87 INFO: epoch [8/10] train_loss: 0.928  val_accuracy: 69.49%
+[2022-07-19 14:36:16,732] train.py:23 INFO: {'config': 'config.yaml', 'data_dir': './data/flower_data/flower_photos', 'weights': '', 'save_path': '', 'num_classes': 5, 'epochs': None, 'batch_size': None, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:36:16,759] train.py:64 INFO: Using cpu device.
+[2022-07-19 14:36:16,760] train.py:65 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:36:16,760] train.py:66 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:37:11,688] train.py:85 INFO: epoch [1/30] train_loss: 1.358  val_accuracy: 44.73%
+[2022-07-19 14:40:10,644] train.py:23 INFO: {'config': 'config.yaml', 'data_dir': './data/flower_data/flower_photos', 'weights': None, 'save_path': None, 'num_classes': 5, 'epochs': None, 'batch_size': None, 'lr': 0.0002, 'nw': 8}
+[2022-07-19 14:40:10,672] train.py:64 INFO: Using cpu device.
+[2022-07-19 14:40:10,672] train.py:65 INFO: Using 8 dataloader workers every process
+[2022-07-19 14:40:10,672] train.py:66 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 14:41:05,347] train.py:85 INFO: epoch [1/30] train_loss: 1.389  val_accuracy: 41.86%
+[2022-07-19 14:41:59,833] train.py:85 INFO: epoch [2/30] train_loss: 1.248  val_accuracy: 49.11%
+[2022-07-19 14:42:54,813] train.py:85 INFO: epoch [3/30] train_loss: 1.165  val_accuracy: 48.84%
+[2022-07-19 14:43:49,705] train.py:85 INFO: epoch [4/30] train_loss: 1.119  val_accuracy: 58.82%
+[2022-07-19 14:44:44,552] train.py:85 INFO: epoch [5/30] train_loss: 1.039  val_accuracy: 59.37%
+[2022-07-19 14:45:39,666] train.py:85 INFO: epoch [6/30] train_loss: 1.000  val_accuracy: 66.76%
+[2022-07-19 14:46:34,725] train.py:85 INFO: epoch [7/30] train_loss: 0.936  val_accuracy: 71.96%
+[2022-07-19 14:47:29,908] train.py:85 INFO: epoch [8/30] train_loss: 0.906  val_accuracy: 64.84%
+[2022-07-19 14:48:25,102] train.py:85 INFO: epoch [9/30] train_loss: 0.887  val_accuracy: 66.89%
+[2022-07-19 14:49:20,427] train.py:85 INFO: epoch [10/30] train_loss: 0.888  val_accuracy: 69.77%
+[2022-07-19 14:50:16,742] train.py:85 INFO: epoch [11/30] train_loss: 0.847  val_accuracy: 72.64%
+[2022-07-19 14:51:14,494] train.py:85 INFO: epoch [12/30] train_loss: 0.834  val_accuracy: 70.04%
+[2022-07-19 14:52:12,080] train.py:85 INFO: epoch [13/30] train_loss: 0.754  val_accuracy: 69.08%
+[2022-07-19 14:53:10,258] train.py:85 INFO: epoch [14/30] train_loss: 0.763  val_accuracy: 75.65%
+[2022-07-19 14:54:07,075] train.py:85 INFO: epoch [15/30] train_loss: 0.774  val_accuracy: 74.97%
+[2022-07-19 14:55:03,737] train.py:85 INFO: epoch [16/30] train_loss: 0.759  val_accuracy: 76.20%
+[2022-07-19 14:55:59,525] train.py:85 INFO: epoch [17/30] train_loss: 0.707  val_accuracy: 75.10%
+[2022-07-19 14:56:55,389] train.py:85 INFO: epoch [18/30] train_loss: 0.714  val_accuracy: 78.66%
+[2022-07-19 14:57:52,447] train.py:85 INFO: epoch [19/30] train_loss: 0.682  val_accuracy: 73.60%
+[2022-07-19 14:58:47,671] train.py:85 INFO: epoch [20/30] train_loss: 0.697  val_accuracy: 78.11%
+[2022-07-19 14:59:43,776] train.py:85 INFO: epoch [21/30] train_loss: 0.669  val_accuracy: 78.66%
+[2022-07-19 15:00:39,446] train.py:85 INFO: epoch [22/30] train_loss: 0.647  val_accuracy: 74.42%
+[2022-07-19 15:01:35,513] train.py:85 INFO: epoch [23/30] train_loss: 0.647  val_accuracy: 77.98%
+[2022-07-19 15:02:30,620] train.py:85 INFO: epoch [24/30] train_loss: 0.626  val_accuracy: 76.74%
+[2022-07-19 15:03:25,847] train.py:85 INFO: epoch [25/30] train_loss: 0.632  val_accuracy: 77.70%
+[2022-07-19 15:04:21,191] train.py:85 INFO: epoch [26/30] train_loss: 0.605  val_accuracy: 72.91%
+[2022-07-19 15:05:16,558] train.py:85 INFO: epoch [27/30] train_loss: 0.614  val_accuracy: 78.52%
+[2022-07-19 15:06:12,253] train.py:85 INFO: epoch [28/30] train_loss: 0.570  val_accuracy: 79.89%
+[2022-07-19 15:07:08,012] train.py:85 INFO: epoch [29/30] train_loss: 0.585  val_accuracy: 75.51%
+[2022-07-19 15:08:03,199] train.py:85 INFO: epoch [30/30] train_loss: 0.571  val_accuracy: 79.62%
+[2022-07-19 15:11:56,270] train.py:26 INFO: {'save_path': './alexnet.pth', 'weights': '', 'data_dir': './data/flower_data/flower_photos', 'batch_size': 64, 'nw': 8, 'num_classes': 5, 'epochs': 30, 'lr': 0.0002, 'train': {'optimizer': 'optim.Adam'}}
+[2022-07-19 15:11:56,296] train.py:64 INFO: Using cpu device.
+[2022-07-19 15:11:56,296] train.py:65 INFO: Using 8 dataloader workers every process
+[2022-07-19 15:11:56,296] train.py:66 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 15:12:51,581] train.py:85 INFO: epoch [1/30] train_loss: 1.380  val_accuracy: 43.64%
+[2022-07-19 15:13:46,651] train.py:85 INFO: epoch [2/30] train_loss: 1.209  val_accuracy: 51.30%
+[2022-07-19 15:14:43,055] train.py:85 INFO: epoch [3/30] train_loss: 1.139  val_accuracy: 54.86%
+[2022-07-19 15:15:39,608] train.py:85 INFO: epoch [4/30] train_loss: 1.091  val_accuracy: 60.33%
+[2022-07-19 15:16:35,025] train.py:85 INFO: epoch [5/30] train_loss: 1.035  val_accuracy: 65.66%
+[2022-07-19 15:17:30,581] train.py:85 INFO: epoch [6/30] train_loss: 0.968  val_accuracy: 68.67%
+[2022-07-19 15:18:25,914] train.py:85 INFO: epoch [7/30] train_loss: 0.949  val_accuracy: 65.66%
+[2022-07-19 15:19:21,672] train.py:85 INFO: epoch [8/30] train_loss: 0.907  val_accuracy: 72.23%
+[2022-07-19 15:20:17,414] train.py:85 INFO: epoch [9/30] train_loss: 0.877  val_accuracy: 71.14%
+[2022-07-19 15:21:14,049] train.py:85 INFO: epoch [10/30] train_loss: 0.870  val_accuracy: 70.04%
+[2022-07-19 15:22:11,033] train.py:85 INFO: epoch [11/30] train_loss: 0.877  val_accuracy: 70.73%
+[2022-07-19 15:23:07,042] train.py:85 INFO: epoch [12/30] train_loss: 0.838  val_accuracy: 71.27%
+[2022-07-19 15:25:58,261] train.py:26 INFO: {'save_path': './alexnet.pth', 'weights': '', 'data_dir': './data/flower_data/flower_photos', 'batch_size': 64, 'nw': 8, 'num_classes': 5, 'epochs': 30, 'lr': 0.0002, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}}}
+[2022-07-19 15:25:58,287] train.py:64 INFO: Using cpu device.
+[2022-07-19 15:25:58,287] train.py:65 INFO: Using 8 dataloader workers every process
+[2022-07-19 15:25:58,287] train.py:66 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 15:26:54,692] train.py:86 INFO: epoch [1/30] train_loss: 1.385  val_accuracy: 45.14%
+[2022-07-19 15:27:50,656] train.py:86 INFO: epoch [2/30] train_loss: 1.209  val_accuracy: 53.08%
+[2022-07-19 15:28:46,887] train.py:86 INFO: epoch [3/30] train_loss: 1.127  val_accuracy: 61.97%
+[2022-07-19 15:29:42,791] train.py:86 INFO: epoch [4/30] train_loss: 1.068  val_accuracy: 55.40%
+[2022-07-19 15:30:38,918] train.py:86 INFO: epoch [5/30] train_loss: 1.011  val_accuracy: 66.76%
+[2022-07-19 15:31:34,556] train.py:86 INFO: epoch [6/30] train_loss: 0.982  val_accuracy: 68.81%
+[2022-07-19 15:32:30,130] train.py:86 INFO: epoch [7/30] train_loss: 0.940  val_accuracy: 70.86%
+[2022-07-19 15:33:25,383] train.py:86 INFO: epoch [8/30] train_loss: 0.896  val_accuracy: 70.86%
+[2022-07-19 15:34:20,338] train.py:86 INFO: epoch [9/30] train_loss: 0.879  val_accuracy: 71.27%
+[2022-07-19 15:35:15,921] train.py:86 INFO: epoch [10/30] train_loss: 0.877  val_accuracy: 71.14%
+[2022-07-19 15:36:10,909] train.py:86 INFO: epoch [11/30] train_loss: 0.822  val_accuracy: 73.60%
+[2022-07-19 15:37:05,921] train.py:86 INFO: epoch [12/30] train_loss: 0.824  val_accuracy: 70.18%
+[2022-07-19 15:38:01,134] train.py:86 INFO: epoch [13/30] train_loss: 0.773  val_accuracy: 69.49%
+[2022-07-19 15:38:56,605] train.py:86 INFO: epoch [14/30] train_loss: 0.759  val_accuracy: 74.42%
+[2022-07-19 15:39:51,840] train.py:86 INFO: epoch [15/30] train_loss: 0.749  val_accuracy: 74.28%
+[2022-07-19 15:40:48,640] train.py:86 INFO: epoch [16/30] train_loss: 0.709  val_accuracy: 76.88%
+[2022-07-19 15:41:44,747] train.py:86 INFO: epoch [17/30] train_loss: 0.721  val_accuracy: 75.51%
+[2022-07-19 15:42:40,133] train.py:86 INFO: epoch [18/30] train_loss: 0.708  val_accuracy: 71.82%
+[2022-07-19 15:43:35,529] train.py:86 INFO: epoch [19/30] train_loss: 0.701  val_accuracy: 74.01%
+[2022-07-19 15:44:31,517] train.py:86 INFO: epoch [20/30] train_loss: 0.669  val_accuracy: 77.29%
+[2022-07-19 15:45:27,306] train.py:86 INFO: epoch [21/30] train_loss: 0.655  val_accuracy: 74.15%
+[2022-07-19 15:46:22,867] train.py:86 INFO: epoch [22/30] train_loss: 0.659  val_accuracy: 75.79%
+[2022-07-19 15:47:18,178] train.py:86 INFO: epoch [23/30] train_loss: 0.634  val_accuracy: 77.29%
+[2022-07-19 15:48:13,517] train.py:86 INFO: epoch [24/30] train_loss: 0.623  val_accuracy: 77.15%
+[2022-07-19 15:49:08,993] train.py:86 INFO: epoch [25/30] train_loss: 0.633  val_accuracy: 78.11%
+[2022-07-19 15:50:04,449] train.py:86 INFO: epoch [26/30] train_loss: 0.609  val_accuracy: 78.66%
+[2022-07-19 15:50:59,772] train.py:86 INFO: epoch [27/30] train_loss: 0.578  val_accuracy: 80.44%
+[2022-07-19 15:51:54,814] train.py:86 INFO: epoch [28/30] train_loss: 0.604  val_accuracy: 72.23%
+[2022-07-19 15:52:49,888] train.py:86 INFO: epoch [29/30] train_loss: 0.548  val_accuracy: 79.34%
+[2022-07-19 15:53:44,803] train.py:86 INFO: epoch [30/30] train_loss: 0.572  val_accuracy: 79.48%
+[2022-07-19 16:00:43,143] train.py:26 INFO: {'save_path': './alexnet.pth', 'weights': './alexnet.pth', 'data_dir': './data/flower_data/flower_photos', 'batch_size': 64, 'nw': 8, 'num_classes': 5, 'epochs': 30, 'lr': 0.0002, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}}}
+[2022-07-19 16:00:43,169] train.py:64 INFO: Using cpu device.
+[2022-07-19 16:00:43,169] train.py:65 INFO: Using 8 dataloader workers every process
+[2022-07-19 16:00:43,170] train.py:66 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 16:01:39,779] train.py:84 INFO: epoch [1/30] train_loss: 0.577  val_accuracy: 78.25%
+[2022-07-19 16:02:35,453] train.py:84 INFO: epoch [2/30] train_loss: 0.534  val_accuracy: 80.98%
+[2022-07-19 16:03:31,216] train.py:84 INFO: epoch [3/30] train_loss: 0.518  val_accuracy: 80.98%
+[2022-07-19 16:04:27,036] train.py:84 INFO: epoch [4/30] train_loss: 0.532  val_accuracy: 80.16%
+[2022-07-19 16:05:22,955] train.py:84 INFO: epoch [5/30] train_loss: 0.514  val_accuracy: 78.66%
+[2022-07-19 16:06:18,962] train.py:84 INFO: epoch [6/30] train_loss: 0.526  val_accuracy: 80.03%
+[2022-07-19 16:07:15,017] train.py:84 INFO: epoch [7/30] train_loss: 0.496  val_accuracy: 80.16%
+[2022-07-19 16:08:10,770] train.py:84 INFO: epoch [8/30] train_loss: 0.500  val_accuracy: 81.26%
+[2022-07-19 16:09:06,201] train.py:84 INFO: epoch [9/30] train_loss: 0.477  val_accuracy: 80.44%
+[2022-07-19 16:10:02,221] train.py:84 INFO: epoch [10/30] train_loss: 0.489  val_accuracy: 79.89%
+[2022-07-19 16:10:58,431] train.py:84 INFO: epoch [11/30] train_loss: 0.507  val_accuracy: 80.16%
+[2022-07-19 16:11:54,663] train.py:84 INFO: epoch [12/30] train_loss: 0.463  val_accuracy: 81.81%
+[2022-07-19 16:12:50,892] train.py:84 INFO: epoch [13/30] train_loss: 0.439  val_accuracy: 82.22%
+[2022-07-19 16:13:47,333] train.py:84 INFO: epoch [14/30] train_loss: 0.460  val_accuracy: 81.53%
+[2022-07-19 16:14:43,476] train.py:84 INFO: epoch [15/30] train_loss: 0.446  val_accuracy: 82.22%
+[2022-07-19 16:15:39,462] train.py:84 INFO: epoch [16/30] train_loss: 0.406  val_accuracy: 83.04%
+[2022-07-19 16:16:35,701] train.py:84 INFO: epoch [17/30] train_loss: 0.426  val_accuracy: 80.85%
+[2022-07-19 16:17:31,571] train.py:84 INFO: epoch [18/30] train_loss: 0.432  val_accuracy: 82.35%
+[2022-07-19 16:18:27,372] train.py:84 INFO: epoch [19/30] train_loss: 0.441  val_accuracy: 78.80%
+[2022-07-19 16:19:22,908] train.py:84 INFO: epoch [20/30] train_loss: 0.435  val_accuracy: 81.81%
+[2022-07-19 16:20:18,711] train.py:84 INFO: epoch [21/30] train_loss: 0.398  val_accuracy: 80.57%
+[2022-07-19 16:21:15,115] train.py:84 INFO: epoch [22/30] train_loss: 0.420  val_accuracy: 82.76%
+[2022-07-19 16:22:10,899] train.py:84 INFO: epoch [23/30] train_loss: 0.398  val_accuracy: 81.94%
+[2022-07-19 16:23:11,109] train.py:84 INFO: epoch [24/30] train_loss: 0.372  val_accuracy: 80.85%
+[2022-07-19 16:24:09,015] train.py:84 INFO: epoch [25/30] train_loss: 0.387  val_accuracy: 81.67%
+[2022-07-19 16:25:05,366] train.py:84 INFO: epoch [26/30] train_loss: 0.410  val_accuracy: 83.58%
+[2022-07-19 16:26:02,132] train.py:84 INFO: epoch [27/30] train_loss: 0.411  val_accuracy: 82.08%
+[2022-07-19 16:26:59,211] train.py:84 INFO: epoch [28/30] train_loss: 0.369  val_accuracy: 83.45%
+[2022-07-19 16:27:57,380] train.py:84 INFO: epoch [29/30] train_loss: 0.388  val_accuracy: 80.30%
+[2022-07-19 16:28:54,671] train.py:84 INFO: epoch [30/30] train_loss: 0.392  val_accuracy: 83.17%
+[2022-07-19 20:49:50,679] train.py:28 INFO: {'save_path': './resNet34.pth', 'weights': './resNet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resNet34', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:49:50,706] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:49:50,706] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:49:50,706] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 20:51:39,031] train.py:28 INFO: {'save_path': './resNet34.pth', 'weights': './resNet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resNet34', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:51:39,057] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:51:39,057] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:51:39,057] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 20:52:28,754] train.py:28 INFO: {'save_path': './resNet34.pth', 'weights': './resNet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resNet34', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:52:28,780] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:52:28,780] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:52:28,780] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 20:53:03,921] train.py:28 INFO: {'save_path': './resNet34.pth', 'weights': './resNet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resNet34', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:53:03,948] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:53:03,948] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:53:03,948] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 20:54:04,497] train.py:28 INFO: {'save_path': './resNet34.pth', 'weights': './resNet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resNet34', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:54:04,523] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:54:04,523] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:54:04,523] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 20:54:53,092] train.py:28 INFO: {'save_path': './resNet34.pth', 'weights': './resNet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resNet34', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:54:53,118] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:54:53,118] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:54:53,118] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 20:59:00,917] train.py:28 INFO: {'save_path': './AlexNet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 20:59:00,944] train.py:68 INFO: Using cpu device.
+[2022-07-19 20:59:00,944] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 20:59:00,944] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 21:00:04,668] train.py:92 INFO: epoch [1/10] train_loss: 1.609  val_accuracy: 21.75%
+[2022-07-19 21:01:08,254] train.py:92 INFO: epoch [2/10] train_loss: 1.608  val_accuracy: 21.75%
+[2022-07-19 21:02:12,704] train.py:92 INFO: epoch [3/10] train_loss: 1.608  val_accuracy: 28.86%
+[2022-07-19 21:03:16,870] train.py:92 INFO: epoch [4/10] train_loss: 1.607  val_accuracy: 24.76%
+[2022-07-19 21:04:20,926] train.py:92 INFO: epoch [5/10] train_loss: 1.606  val_accuracy: 24.49%
+[2022-07-19 21:05:25,332] train.py:92 INFO: epoch [6/10] train_loss: 1.606  val_accuracy: 24.49%
+[2022-07-19 21:06:31,538] train.py:92 INFO: epoch [7/10] train_loss: 1.606  val_accuracy: 24.49%
+[2022-07-19 21:07:37,274] train.py:92 INFO: epoch [8/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-19 21:08:42,091] train.py:92 INFO: epoch [9/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-19 21:09:48,673] train.py:92 INFO: epoch [10/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-19 21:09:48,761] train.py:99 INFO: 运行时间：0:10:47.845579
+[2022-07-19 21:12:12,690] train.py:28 INFO: {'save_path': './AlexNet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-19 21:12:12,716] train.py:68 INFO: Using cpu device.
+[2022-07-19 21:12:12,716] train.py:69 INFO: Using 8 dataloader workers every process
+[2022-07-19 21:12:12,716] train.py:70 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-19 21:13:16,981] train.py:92 INFO: epoch [1/10] train_loss: 1.609  val_accuracy: 21.75%
+[2022-07-19 21:14:20,462] train.py:92 INFO: epoch [2/10] train_loss: 1.608  val_accuracy: 22.30%
+[2022-07-19 21:15:23,535] train.py:92 INFO: epoch [3/10] train_loss: 1.607  val_accuracy: 33.38%
+[2022-07-19 21:16:26,568] train.py:92 INFO: epoch [4/10] train_loss: 1.607  val_accuracy: 25.99%
+[2022-07-19 21:17:29,726] train.py:92 INFO: epoch [5/10] train_loss: 1.606  val_accuracy: 24.76%
+[2022-07-19 21:18:32,785] train.py:92 INFO: epoch [6/10] train_loss: 1.605  val_accuracy: 24.62%
+[2022-07-19 21:19:36,016] train.py:92 INFO: epoch [7/10] train_loss: 1.605  val_accuracy: 24.62%
+[2022-07-19 21:20:39,013] train.py:92 INFO: epoch [8/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-19 21:21:41,877] train.py:92 INFO: epoch [9/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-19 21:22:45,120] train.py:92 INFO: epoch [10/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-19 21:22:45,208] train.py:103 INFO: 运行时间：10.541992983333333分
+[2022-07-20 09:46:50,412] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 16, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 09:46:50,439] train.py:76 INFO: Using cpu device.
+[2022-07-20 09:46:50,439] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 09:46:50,439] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 09:47:41,224] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.0001, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 09:47:41,251] train.py:76 INFO: Using cpu device.
+[2022-07-20 09:47:41,251] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 09:47:41,251] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 09:48:37,994] train.py:100 INFO: epoch [1/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-20 09:49:34,616] train.py:100 INFO: epoch [2/10] train_loss: 1.605  val_accuracy: 24.49%
+[2022-07-20 09:50:36,030] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.01, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 09:50:36,057] train.py:76 INFO: Using cpu device.
+[2022-07-20 09:50:36,057] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 09:50:36,057] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 09:51:33,123] train.py:100 INFO: epoch [1/10] train_loss: 1.590  val_accuracy: 33.79%
+[2022-07-20 09:52:30,548] train.py:100 INFO: epoch [2/10] train_loss: 1.393  val_accuracy: 38.44%
+[2022-07-20 09:53:27,296] train.py:100 INFO: epoch [3/10] train_loss: 1.258  val_accuracy: 50.62%
+[2022-07-20 09:54:23,925] train.py:100 INFO: epoch [4/10] train_loss: 1.182  val_accuracy: 50.21%
+[2022-07-20 09:55:20,369] train.py:100 INFO: epoch [5/10] train_loss: 1.154  val_accuracy: 50.62%
+[2022-07-20 09:56:23,540] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.01, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 09:56:23,566] train.py:76 INFO: Using cpu device.
+[2022-07-20 09:56:23,567] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 09:56:23,567] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 09:57:20,244] train.py:100 INFO: epoch [1/10] train_loss: 1.127  val_accuracy: 50.75%
+[2022-07-20 09:58:17,043] train.py:100 INFO: epoch [2/10] train_loss: 1.077  val_accuracy: 57.05%
+[2022-07-20 09:59:15,047] train.py:100 INFO: epoch [3/10] train_loss: 1.053  val_accuracy: 56.50%
+[2022-07-20 10:00:11,281] train.py:100 INFO: epoch [4/10] train_loss: 0.996  val_accuracy: 55.81%
+[2022-07-20 10:01:07,471] train.py:100 INFO: epoch [5/10] train_loss: 0.954  val_accuracy: 62.65%
+[2022-07-20 10:02:03,580] train.py:100 INFO: epoch [6/10] train_loss: 0.986  val_accuracy: 65.94%
+[2022-07-20 10:02:59,052] train.py:100 INFO: epoch [7/10] train_loss: 0.938  val_accuracy: 65.39%
+[2022-07-20 10:03:55,358] train.py:100 INFO: epoch [8/10] train_loss: 0.901  val_accuracy: 70.73%
+[2022-07-20 10:04:51,684] train.py:100 INFO: epoch [9/10] train_loss: 0.875  val_accuracy: 69.77%
+[2022-07-20 10:05:47,715] train.py:100 INFO: epoch [10/10] train_loss: 0.846  val_accuracy: 70.04%
+[2022-07-20 10:05:47,801] train.py:111 INFO: 运行时间：9.404分
+[2022-07-20 10:25:30,106] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.01, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.001}}}
+[2022-07-20 10:25:30,133] train.py:76 INFO: Using cpu device.
+[2022-07-20 10:25:30,134] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 10:25:30,134] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 10:26:26,221] train.py:100 INFO: epoch [1/10] train_loss: 0.904  val_accuracy: 62.79%
+[2022-07-20 10:27:23,326] train.py:100 INFO: epoch [2/10] train_loss: 0.821  val_accuracy: 61.42%
+[2022-07-20 10:28:19,986] train.py:100 INFO: epoch [3/10] train_loss: 0.832  val_accuracy: 59.64%
+[2022-07-20 10:29:16,720] train.py:100 INFO: epoch [4/10] train_loss: 0.792  val_accuracy: 62.52%
+[2022-07-20 10:30:13,567] train.py:100 INFO: epoch [5/10] train_loss: 0.751  val_accuracy: 62.11%
+[2022-07-20 10:31:10,124] train.py:100 INFO: epoch [6/10] train_loss: 0.821  val_accuracy: 66.07%
+[2022-07-20 10:32:07,088] train.py:100 INFO: epoch [7/10] train_loss: 0.815  val_accuracy: 67.58%
+[2022-07-20 10:32:50,688] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.01, 'momentum': 0.9, 'weight_decay': 5e-05}, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.001}}}
+[2022-07-20 10:32:50,714] train.py:76 INFO: Using cpu device.
+[2022-07-20 10:32:50,715] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 10:32:50,715] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 10:36:57,488] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.01, 'momentum': 0.9, 'weight_decay': 5e-05}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.001}}}
+[2022-07-20 10:36:57,515] train.py:76 INFO: Using cpu device.
+[2022-07-20 10:36:57,515] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 10:36:57,515] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 10:37:53,385] train.py:100 INFO: epoch [1/10] train_loss: 0.717  val_accuracy: 59.92%
+[2022-07-20 10:38:49,332] train.py:100 INFO: epoch [2/10] train_loss: 0.723  val_accuracy: 65.53%
+[2022-07-20 10:39:45,866] train.py:100 INFO: epoch [3/10] train_loss: 0.727  val_accuracy: 60.88%
+[2022-07-20 10:40:42,931] train.py:100 INFO: epoch [4/10] train_loss: 0.675  val_accuracy: 62.79%
+[2022-07-20 10:41:39,187] train.py:100 INFO: epoch [5/10] train_loss: 0.729  val_accuracy: 63.34%
+[2022-07-20 10:42:12,708] train.py:36 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'nw': 8, 'num_classes': 5, 'epochs': 10, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.01, 'momentum': 0.9, 'weight_decay': 5e-05}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 10:42:12,735] train.py:76 INFO: Using cpu device.
+[2022-07-20 10:42:12,735] train.py:77 INFO: Using 8 dataloader workers every process
+[2022-07-20 10:42:12,735] train.py:78 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 10:43:13,264] train.py:100 INFO: epoch [1/10] train_loss: 0.570  val_accuracy: 70.18%
+[2022-07-20 10:44:14,039] train.py:100 INFO: epoch [2/10] train_loss: 0.530  val_accuracy: 72.09%
+[2022-07-20 10:45:15,363] train.py:100 INFO: epoch [3/10] train_loss: 0.540  val_accuracy: 63.34%
+[2022-07-20 10:46:17,611] train.py:100 INFO: epoch [4/10] train_loss: 0.461  val_accuracy: 63.06%
+[2022-07-20 10:47:19,631] train.py:100 INFO: epoch [5/10] train_loss: 0.420  val_accuracy: 69.63%
+[2022-07-20 10:48:21,327] train.py:100 INFO: epoch [6/10] train_loss: 0.669  val_accuracy: 70.31%
+[2022-07-20 10:49:22,736] train.py:100 INFO: epoch [7/10] train_loss: 0.698  val_accuracy: 73.46%
+[2022-07-20 10:50:24,667] train.py:100 INFO: epoch [8/10] train_loss: 0.734  val_accuracy: 75.10%
+[2022-07-20 10:51:27,129] train.py:100 INFO: epoch [9/10] train_loss: 0.723  val_accuracy: 75.24%
+[2022-07-20 10:52:28,507] train.py:100 INFO: epoch [10/10] train_loss: 0.720  val_accuracy: 75.79%
+[2022-07-20 10:52:28,596] train.py:111 INFO: 运行时间：10.265分
+[2022-07-20 13:02:25,503] train.py:37 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 13:02:25,542] train.py:79 INFO: Using cpu device.
+[2022-07-20 13:02:25,542] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-20 13:02:25,542] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 13:03:31,033] train.py:106 INFO: epoch [1/10] train_loss: 0.329  val_accuracy: 67.17%
+[2022-07-20 13:06:29,211] train.py:37 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 13:06:29,244] train.py:79 INFO: Using cpu device.
+[2022-07-20 13:06:29,245] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-20 13:06:29,245] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 13:07:33,919] train.py:106 INFO: epoch [1/10] train_loss: 0.329  val_accuracy: 67.17%
+[2022-07-20 13:08:39,250] train.py:106 INFO: epoch [2/10] train_loss: 0.301  val_accuracy: 70.73%
+[2022-07-20 13:09:45,209] train.py:106 INFO: epoch [3/10] train_loss: 0.271  val_accuracy: 68.67%
+[2022-07-20 13:10:52,055] train.py:106 INFO: epoch [4/10] train_loss: 0.222  val_accuracy: 66.89%
+[2022-07-20 13:11:57,977] train.py:106 INFO: epoch [5/10] train_loss: 0.245  val_accuracy: 71.82%
+[2022-07-20 13:13:03,709] train.py:106 INFO: epoch [6/10] train_loss: 0.409  val_accuracy: 72.50%
+[2022-07-20 13:14:09,091] train.py:106 INFO: epoch [7/10] train_loss: 0.533  val_accuracy: 75.10%
+[2022-07-20 13:15:14,643] train.py:106 INFO: epoch [8/10] train_loss: 0.621  val_accuracy: 74.97%
+[2022-07-20 13:15:30,111] train.py:37 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 13:15:30,141] train.py:79 INFO: Using cpu device.
+[2022-07-20 13:15:30,141] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-20 13:15:30,141] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 13:16:36,863] train.py:106 INFO: epoch [1/10] train_loss: 0.276  val_accuracy: 71.27%
+[2022-07-20 13:17:42,609] train.py:106 INFO: epoch [2/10] train_loss: 0.228  val_accuracy: 73.32%
+[2022-07-20 13:18:48,367] train.py:106 INFO: epoch [3/10] train_loss: 0.184  val_accuracy: 70.45%
+[2022-07-20 13:19:54,266] train.py:106 INFO: epoch [4/10] train_loss: 0.169  val_accuracy: 70.73%
+[2022-07-20 13:20:59,962] train.py:106 INFO: epoch [5/10] train_loss: 0.202  val_accuracy: 71.27%
+[2022-07-20 13:22:05,626] train.py:106 INFO: epoch [6/10] train_loss: 0.314  val_accuracy: 69.77%
+[2022-07-20 13:22:47,988] train.py:37 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 13:22:48,017] train.py:79 INFO: Using cpu device.
+[2022-07-20 13:22:48,018] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-20 13:22:48,018] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 13:23:55,132] train.py:106 INFO: epoch [1/10] train_loss: 0.253  val_accuracy: 70.04%
+[2022-07-20 13:25:01,855] train.py:106 INFO: epoch [2/10] train_loss: 0.133  val_accuracy: 75.10%
+[2022-07-20 13:26:08,218] train.py:106 INFO: epoch [3/10] train_loss: 0.112  val_accuracy: 72.23%
+[2022-07-20 13:26:33,832] train.py:37 INFO: {'save_path': './AlexNet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 13:26:33,872] train.py:79 INFO: Using cpu device.
+[2022-07-20 13:26:33,872] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-20 13:26:33,872] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 13:27:40,868] train.py:106 INFO: epoch [1/10] train_loss: 1.485  val_accuracy: 46.79%
+[2022-07-20 13:28:46,252] train.py:106 INFO: epoch [2/10] train_loss: 1.210  val_accuracy: 49.52%
+[2022-07-20 13:29:52,238] train.py:106 INFO: epoch [3/10] train_loss: 1.141  val_accuracy: 56.36%
+[2022-07-20 13:30:58,092] train.py:106 INFO: epoch [4/10] train_loss: 1.047  val_accuracy: 60.19%
+[2022-07-20 13:32:03,682] train.py:106 INFO: epoch [5/10] train_loss: 0.994  val_accuracy: 58.41%
+[2022-07-20 13:33:09,111] train.py:106 INFO: epoch [6/10] train_loss: 1.002  val_accuracy: 67.99%
+[2022-07-20 13:34:14,393] train.py:106 INFO: epoch [7/10] train_loss: 0.945  val_accuracy: 65.39%
+[2022-07-20 13:35:19,306] train.py:106 INFO: epoch [8/10] train_loss: 0.921  val_accuracy: 67.99%
+[2022-07-20 13:36:24,915] train.py:106 INFO: epoch [9/10] train_loss: 0.896  val_accuracy: 70.18%
+[2022-07-20 13:37:30,793] train.py:106 INFO: epoch [10/10] train_loss: 0.869  val_accuracy: 69.22%
+[2022-07-20 13:37:30,898] train.py:128 INFO: 运行时间：10.951分
+[2022-07-20 13:40:00,870] train.py:37 INFO: {'save_path': './AlexNet.pth', 'weights': './AlexNet.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'AlexNet', 'batch_size': 64, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': 'ture', 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-20 13:40:00,910] train.py:79 INFO: Using cpu device.
+[2022-07-20 13:40:00,910] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-20 13:40:00,910] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-20 13:41:01,744] train.py:104 INFO: epoch [1/10] train_loss: 0.819  val_accuracy: 73.87%
+[2022-07-20 13:42:02,182] train.py:104 INFO: epoch [2/10] train_loss: 0.789  val_accuracy: 73.60%
+[2022-07-20 13:43:02,201] train.py:104 INFO: epoch [3/10] train_loss: 0.770  val_accuracy: 74.01%
+[2022-07-20 13:44:02,491] train.py:104 INFO: epoch [4/10] train_loss: 0.728  val_accuracy: 75.92%
+[2022-07-20 13:45:02,733] train.py:104 INFO: epoch [5/10] train_loss: 0.702  val_accuracy: 74.15%
+[2022-07-20 13:46:02,284] train.py:104 INFO: epoch [6/10] train_loss: 0.701  val_accuracy: 75.79%
+[2022-07-20 13:47:01,880] train.py:104 INFO: epoch [7/10] train_loss: 0.684  val_accuracy: 75.92%
+[2022-07-20 13:48:02,368] train.py:104 INFO: epoch [8/10] train_loss: 0.634  val_accuracy: 77.02%
+[2022-07-20 13:49:01,933] train.py:104 INFO: epoch [9/10] train_loss: 0.614  val_accuracy: 76.74%
+[2022-07-20 13:50:01,523] train.py:104 INFO: epoch [10/10] train_loss: 0.609  val_accuracy: 78.39%
+[2022-07-20 13:50:01,622] train.py:126 INFO: 运行时间：10.013分
+[2022-07-21 12:24:35,806] train.py:37 INFO: {'save_path': './densenet121.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'densenet121', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:24:35,835] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:24:35,835] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:24:35,835] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:25:15,721] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:25:15,750] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:25:15,750] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:25:15,750] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:28:31,392] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:28:31,421] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:28:31,421] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:28:31,421] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:28:37,332] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:28:37,370] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:28:37,370] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:28:37,370] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:33:56,973] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:33:57,002] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:33:57,002] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:33:57,002] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:34:58,284] train.py:104 INFO: epoch [1/30] train_loss: 1.607  val_accuracy: 24.49%
+[2022-07-21 12:35:59,406] train.py:104 INFO: epoch [2/30] train_loss: 1.604  val_accuracy: 24.49%
+[2022-07-21 12:37:05,305] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:37:05,334] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:37:05,334] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:37:05,334] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:38:11,630] train.py:104 INFO: epoch [1/30] train_loss: 1.485  val_accuracy: 46.79%
+[2022-07-21 12:39:17,380] train.py:104 INFO: epoch [2/30] train_loss: 1.210  val_accuracy: 49.52%
+[2022-07-21 12:40:24,869] train.py:104 INFO: epoch [3/30] train_loss: 1.141  val_accuracy: 56.36%
+[2022-07-21 12:41:29,808] train.py:104 INFO: epoch [4/30] train_loss: 1.047  val_accuracy: 60.19%
+[2022-07-21 12:42:35,021] train.py:104 INFO: epoch [5/30] train_loss: 0.994  val_accuracy: 58.41%
+[2022-07-21 12:43:42,407] train.py:104 INFO: epoch [6/30] train_loss: 1.002  val_accuracy: 67.99%
+[2022-07-21 12:44:48,434] train.py:104 INFO: epoch [7/30] train_loss: 0.945  val_accuracy: 65.39%
+[2022-07-21 12:45:22,061] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:45:22,090] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:45:22,091] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:45:22,091] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:50:48,690] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:50:48,720] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:50:48,720] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:50:48,720] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 12:51:53,844] train.py:105 INFO: epoch [1/30] train_loss: 1.485  train_acc: 32.70%,val_loss: 1.276  val_acc: 46.79%
+[2022-07-21 12:52:58,387] train.py:105 INFO: epoch [2/30] train_loss: 1.210  train_acc: 47.09%,val_loss: 1.137  val_acc: 49.52%
+[2022-07-21 12:54:02,658] train.py:105 INFO: epoch [3/30] train_loss: 1.142  train_acc: 51.65%,val_loss: 1.043  val_acc: 56.36%
+[2022-07-21 12:55:07,368] train.py:105 INFO: epoch [4/30] train_loss: 1.047  train_acc: 57.40%,val_loss: 0.978  val_acc: 60.19%
+[2022-07-21 12:56:12,747] train.py:105 INFO: epoch [5/30] train_loss: 0.994  train_acc: 60.91%,val_loss: 1.061  val_acc: 58.41%
+[2022-07-21 12:57:19,145] train.py:105 INFO: epoch [6/30] train_loss: 1.003  train_acc: 60.60%,val_loss: 0.846  val_acc: 67.99%
+[2022-07-21 12:58:24,522] train.py:105 INFO: epoch [7/30] train_loss: 0.945  train_acc: 61.18%,val_loss: 0.899  val_acc: 65.39%
+[2022-07-21 12:59:17,191] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 12:59:17,221] train.py:79 INFO: Using cpu device.
+[2022-07-21 12:59:17,221] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 12:59:17,221] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 13:00:21,596] train.py:105 INFO: epoch [1/10] train_loss: 1.485 train_acc: 32.70% val_loss: 1.276 val_acc: 46.79%
+[2022-07-21 13:02:52,872] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 13:02:52,910] train.py:79 INFO: Using cpu device.
+[2022-07-21 13:02:52,910] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 13:02:52,910] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 13:03:57,311] train.py:105 INFO: epoch [1/10] train_loss: 1.485 train_acc: 32.70% val_loss: 1.276 val_acc: 46.79%
+[2022-07-21 13:04:46,867] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 13:04:46,895] train.py:79 INFO: Using cpu device.
+[2022-07-21 13:04:46,895] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 13:04:46,895] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 13:05:51,156] train.py:105 INFO: epoch [1/10] train_loss: 1.485 train_acc: 32.70% val_loss: 1.276 val_acc: 46.79%
+[2022-07-21 13:06:55,176] train.py:109 INFO: epoch [1/10] train_loss: 1.210  val_accuracy: 49.52%
+[2022-07-21 13:07:59,363] train.py:105 INFO: epoch [2/10] train_loss: 1.142 train_acc: 51.65% val_loss: 1.043 val_acc: 56.36%
+[2022-07-21 13:08:23,882] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 13:08:23,912] train.py:79 INFO: Using cpu device.
+[2022-07-21 13:08:23,912] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 13:08:23,912] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 13:09:28,518] train.py:105 INFO: epoch [1/10] train_loss: 1.485 train_acc: 32.70% val_loss: 1.276 val_acc: 46.79%
+[2022-07-21 13:10:32,632] train.py:105 INFO: epoch [2/10] train_loss: 1.210 train_acc: 47.09% val_loss: 1.137 val_acc: 49.52%
+[2022-07-21 13:11:36,933] train.py:105 INFO: epoch [3/10] train_loss: 1.142 train_acc: 51.65% val_loss: 1.043 val_acc: 56.36%
+[2022-07-21 13:12:41,251] train.py:105 INFO: epoch [4/10] train_loss: 1.047 train_acc: 57.40% val_loss: 0.978 val_acc: 60.19%
+[2022-07-21 13:13:45,634] train.py:105 INFO: epoch [5/10] train_loss: 0.994 train_acc: 60.91% val_loss: 1.061 val_acc: 58.41%
+[2022-07-21 13:14:49,732] train.py:105 INFO: epoch [6/10] train_loss: 1.003 train_acc: 60.60% val_loss: 0.846 val_acc: 67.99%
+[2022-07-21 13:15:53,888] train.py:105 INFO: epoch [7/10] train_loss: 0.945 train_acc: 61.18% val_loss: 0.899 val_acc: 65.39%
+[2022-07-21 13:16:58,110] train.py:105 INFO: epoch [8/10] train_loss: 0.921 train_acc: 63.22% val_loss: 0.838 val_acc: 67.99%
+[2022-07-21 13:18:02,241] train.py:105 INFO: epoch [9/10] train_loss: 0.896 train_acc: 63.87% val_loss: 0.813 val_acc: 70.18%
+[2022-07-21 13:19:06,342] train.py:105 INFO: epoch [10/10] train_loss: 0.868 train_acc: 67.00% val_loss: 0.773 val_acc: 69.22%
+[2022-07-21 13:19:06,342] train.py:125 INFO: 运行时间：10.708分
+[2022-07-21 13:26:27,947] train.py:37 INFO: {'save_path': './alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'adam', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': False, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 13:26:27,976] train.py:79 INFO: Using cpu device.
+[2022-07-21 13:26:27,976] train.py:80 INFO: Using 8 dataloader workers every process
+[2022-07-21 13:26:27,976] train.py:81 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 13:27:32,515] train.py:109 INFO: epoch [1/10] train_loss: 1.485  val_accuracy: 46.79%
+[2022-07-21 13:28:36,814] train.py:109 INFO: epoch [2/10] train_loss: 1.210  val_accuracy: 49.52%
+[2022-07-21 13:29:41,695] train.py:109 INFO: epoch [3/10] train_loss: 1.141  val_accuracy: 56.36%
+[2022-07-21 13:30:46,876] train.py:109 INFO: epoch [4/10] train_loss: 1.047  val_accuracy: 60.19%
+[2022-07-21 13:31:51,593] train.py:109 INFO: epoch [5/10] train_loss: 0.994  val_accuracy: 58.41%
+[2022-07-21 13:32:56,435] train.py:109 INFO: epoch [6/10] train_loss: 1.002  val_accuracy: 67.99%
+[2022-07-21 13:34:01,286] train.py:109 INFO: epoch [7/10] train_loss: 0.945  val_accuracy: 65.39%
+[2022-07-21 13:35:06,659] train.py:109 INFO: epoch [8/10] train_loss: 0.921  val_accuracy: 67.99%
+[2022-07-21 13:36:11,422] train.py:109 INFO: epoch [9/10] train_loss: 0.896  val_accuracy: 70.18%
+[2022-07-21 13:37:16,121] train.py:109 INFO: epoch [10/10] train_loss: 0.869  val_accuracy: 69.22%
+[2022-07-21 13:37:16,121] train.py:125 INFO: 运行时间：10.803分
+[2022-07-21 19:17:53,476] train.py:28 INFO: {'save_path': './convnext_tiny.pth', 'weights': './convnext_tiny.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'convnext_tiny', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 19:17:53,507] train.py:70 INFO: Using cpu device.
+[2022-07-21 19:17:53,507] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-21 19:17:53,507] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-21 19:42:21,200] train.py:28 INFO: {'save_path': './convnext_tiny.pth', 'weights': './convnext_tiny.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'convnext_tiny', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-21 19:42:21,237] train.py:70 INFO: Using cpu device.
+[2022-07-21 19:42:21,238] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-21 19:42:21,238] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 14:12:54,623] train.py:28 INFO: {'save_path': './mobilenetv2.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'mobilenetv2', 'batch_size': 32, 'epochs': 30, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'optim': 'sgd', 'adam': {'lr': 0.0002, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 14:12:54,655] train.py:70 INFO: Using cpu device.
+[2022-07-23 14:12:54,655] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 14:12:54,655] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 14:15:17,593] train.py:103 INFO: epoch [1/30] train_loss: 0.946 train_acc: 67.06% val_loss: 0.496 val_acc: 87.69%
+[2022-07-23 14:17:41,238] train.py:103 INFO: epoch [2/30] train_loss: 0.552 train_acc: 82.95% val_loss: 0.391 val_acc: 87.69%
+[2022-07-23 14:20:03,511] train.py:103 INFO: epoch [3/30] train_loss: 0.477 train_acc: 84.89% val_loss: 0.340 val_acc: 90.70%
+[2022-07-23 14:22:28,502] train.py:103 INFO: epoch [4/30] train_loss: 0.435 train_acc: 85.47% val_loss: 0.320 val_acc: 90.83%
+[2022-07-23 14:24:51,259] train.py:103 INFO: epoch [5/30] train_loss: 0.412 train_acc: 86.66% val_loss: 0.309 val_acc: 90.01%
+[2022-07-23 14:27:19,155] train.py:103 INFO: epoch [6/30] train_loss: 0.405 train_acc: 86.39% val_loss: 0.295 val_acc: 90.42%
+[2022-07-23 14:29:41,821] train.py:103 INFO: epoch [7/30] train_loss: 0.381 train_acc: 87.17% val_loss: 0.289 val_acc: 90.56%
+[2022-07-23 14:32:04,610] train.py:103 INFO: epoch [8/30] train_loss: 0.383 train_acc: 86.97% val_loss: 0.287 val_acc: 90.70%
+[2022-07-23 14:34:25,956] train.py:103 INFO: epoch [9/30] train_loss: 0.366 train_acc: 87.61% val_loss: 0.286 val_acc: 90.29%
+[2022-07-23 14:36:47,708] train.py:103 INFO: epoch [10/30] train_loss: 0.367 train_acc: 87.61% val_loss: 0.286 val_acc: 89.88%
+[2022-07-23 14:39:09,326] train.py:103 INFO: epoch [11/30] train_loss: 0.354 train_acc: 87.92% val_loss: 0.269 val_acc: 90.70%
+[2022-07-23 14:41:30,958] train.py:103 INFO: epoch [12/30] train_loss: 0.369 train_acc: 87.10% val_loss: 0.284 val_acc: 90.42%
+[2022-07-23 14:43:54,842] train.py:103 INFO: epoch [13/30] train_loss: 0.347 train_acc: 88.50% val_loss: 0.268 val_acc: 91.11%
+[2022-07-23 14:46:16,082] train.py:103 INFO: epoch [14/30] train_loss: 0.341 train_acc: 87.92% val_loss: 0.275 val_acc: 90.15%
+[2022-07-23 14:48:36,341] train.py:103 INFO: epoch [15/30] train_loss: 0.342 train_acc: 88.06% val_loss: 0.263 val_acc: 90.83%
+[2022-07-23 14:51:02,513] train.py:103 INFO: epoch [16/30] train_loss: 0.336 train_acc: 88.19% val_loss: 0.262 val_acc: 91.11%
+[2022-07-23 17:04:53,189] train.py:28 INFO: {'save_path': './alexnet.pth', 'offocial_weights': './weights/pre-weights/pre-alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:04:53,220] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:04:53,220] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:04:53,220] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 17:05:16,291] train.py:28 INFO: {'save_path': './alexnet.pth', 'offocial_weights': './weights/pre-weights/pre-alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:05:16,320] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:05:16,320] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:05:16,320] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 17:07:02,860] train.py:28 INFO: {'save_path': './alexnet.pth', 'offocial_weights': './weights/pre-weights/pre-alexnet.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'alexnet', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:07:02,898] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:07:02,898] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:07:02,898] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 17:08:28,565] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:08:28,595] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:08:28,595] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:08:28,595] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 17:09:38,908] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:09:38,938] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:09:38,938] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:09:38,938] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 17:10:17,484] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:10:17,514] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:10:17,514] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:10:17,514] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 17:10:28,246] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 17:10:28,276] train.py:70 INFO: Using cpu device.
+[2022-07-23 17:10:28,276] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 17:10:28,276] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:06:29,024] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:06:29,054] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:06:29,054] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:06:29,054] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:07:18,648] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:07:18,678] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:07:18,678] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:07:18,678] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:08:01,788] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:08:01,817] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:08:01,817] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:08:01,817] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:08:20,666] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:08:20,694] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:08:20,694] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:08:20,694] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:10:21,748] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': './weights/pre-weights/pre-resnet50.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:10:21,778] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:10:21,779] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:10:21,779] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:11:30,990] train.py:28 INFO: {'save_path': './resnet50.pth', 'offocial_weights': None, 'weights': './weights/pre-weights/pre-resnet50.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet50', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:11:31,020] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:11:31,020] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:11:31,020] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:13:54,963] train.py:28 INFO: {'save_path': './mobilenetv2.pth', 'offocial_weights': './weights/pre-weights/pre-mobilenetv2.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'mobilenetv2', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:13:54,993] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:13:54,993] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:13:54,993] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:15:20,473] train.py:28 INFO: {'save_path': './mobilenetv2.pth', 'offocial_weights': './weights/pre-weights/pre-mobilenetv2.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'mobilenetv2', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:15:20,503] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:15:20,503] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:15:20,503] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:18:28,441] train.py:28 INFO: {'save_path': './mobilenetv2.pth', 'offocial_weights': './weights/pre-weights/pre-mobilenetv2.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'mobilenetv2', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:18:28,470] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:18:28,470] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:18:28,470] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:19:22,490] train.py:28 INFO: {'save_path': './mobilenetv2.pth', 'offocial_weights': './weights/pre-weights/pre-mobilenetv2.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'mobilenetv2', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:19:22,528] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:19:22,528] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:19:22,528] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:20:59,480] train.py:28 INFO: {'save_path': './mobilenetv2.pth', 'offocial_weights': './weights/pre-weights/pre-mobilenetv2.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'mobilenetv2', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:20:59,510] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:20:59,510] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:20:59,510] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:21:53,366] train.py:28 INFO: {'save_path': './resnet34.pth', 'offocial_weights': './weights/pre-weights/pre-resnet34.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet34', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:21:53,396] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:21:53,396] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:21:53,396] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:22:24,479] train.py:28 INFO: {'save_path': './resnet34.pth', 'offocial_weights': './weights/pre-weights/pre-resnet34.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet34', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:22:24,508] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:22:24,508] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:22:24,508] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:25:12,117] train.py:28 INFO: {'save_path': './resnet34.pth', 'offocial_weights': './weights/pre-weights/pre-resnet34.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet34', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:25:12,146] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:25:12,146] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:25:12,146] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:25:29,217] train.py:28 INFO: {'save_path': './resnet34.pth', 'offocial_weights': './weights/pre-weights/pre-resnet34.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet34', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:25:29,246] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:25:29,246] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:25:29,246] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:26:29,930] train.py:28 INFO: {'save_path': './resnet34.pth', 'offocial_weights': './weights/pre-weights/pre-resnet34.pth', 'weights': None, 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet34', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:26:29,959] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:26:29,959] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:26:29,959] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
+[2022-07-23 18:29:41,545] train.py:28 INFO: {'save_path': './resnet34.pth', 'offocial_weights': None, 'weights': './weights/pre-weights/pre-resnet34.pth', 'data_dir': './data/flower_data/flower_photos', 'model': 'resnet34', 'batch_size': 32, 'epochs': 10, 'nw': 8, 'num_classes': 5, 'lrf': 0.01, 'seed': 0, 'learning': {'loss': 'ce', 'optim': 'sgd', 'adam': {'lr': 0.0001, 'weight_decay': 0.0001}, 'sgd': {'lr': 0.001, 'momentum': 0.9, 'weight_decay': 0.005}, 'use_scheduler': True, 'scheduler': 'lambdalr', 'lambdalr': {'lr': 0.0001}}}
+[2022-07-23 18:29:41,574] train.py:70 INFO: Using cpu device.
+[2022-07-23 18:29:41,574] train.py:71 INFO: Using 8 dataloader workers every process
+[2022-07-23 18:29:41,574] train.py:72 INFO: Using 2939 images for training, 731 images for validation.
